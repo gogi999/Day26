@@ -9,6 +9,7 @@ class GetRequestSetHeaders extends Component {
 
     componentDidMount() {
         const headers = {
+            'Content-Type': 'application/json',
             'Authorization': 'Bearer my-token',
             'My-Custom-Header': 'foobar'
         };
