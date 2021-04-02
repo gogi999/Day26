@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import axios from 'axios';
 
-class PostRequestSetHeaders extends Component {
+class PostRequestSetHeaders extends React.Component {
     constructor(props) {
         super(props);
         this.state = { articleId: null };
