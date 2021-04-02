@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import axios from 'axios';
 
-class PostRequestAsyncAwait extends Component {
+class PostRequestAsyncAwait extends React.Component {
     constructor(props) {
         super(props);
         this.state = { articleId: null };
